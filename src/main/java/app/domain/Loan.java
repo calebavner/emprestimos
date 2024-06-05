@@ -20,7 +20,7 @@ public class Loan {
     }
 
     public boolean validateBasicInfos() {
-        if(customer.thisIncomeisEqualsOrLowerThan(3000D)) {
+        if(customer.thisIncomeIsEqualsOrLowerThan(3000D)) {
             return true;
         }
         return  customer.thisIncomeBetweenThan(3000D, 5000D)
